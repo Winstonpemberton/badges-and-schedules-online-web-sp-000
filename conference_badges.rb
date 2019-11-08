@@ -13,6 +13,7 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
+<<<<<<< HEAD
   list_of_speakers = []
   speakers.each_with_index do |names, room|
     list_of_speakers << "Hello, #{names}! You'll be assigned to room #{room + 1}!"
@@ -31,3 +32,7 @@ def printer(speakers)
     puts speaker_rooms
   end
 end
+=======
+
+end
+>>>>>>> 485fb58f49222245e2a7f1b3eaeadc06d1030bc3
